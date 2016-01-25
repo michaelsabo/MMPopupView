@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/adad184/MMPopupView"
   s.license      = { :type => 'MIT License', :file => 'LICENSE' }
   s.author       = { "adad184" => "adad184@gmail.com" }
-  s.source       = { :git => "https://github.com/adad184/MMPopupView.git", :tag => "1.6" }
+  s.source       = { :git => "https://github.com/michaelsabo/MMPopupView.git", :tag => "1.6.1" }
   s.platform     = :ios, '7.0'
   s.source_files = 'Classes/*.{h,m}'
   s.requires_arc = true
