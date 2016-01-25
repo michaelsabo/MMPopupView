@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "MMPopupView"
-  s.version      = "1.6"
+  s.version      = "1.6.1"
   s.summary      = "Pop-up based view(e.g. AlertView SheetView), or you can easily customize for your own usage."
   s.homepage     = "https://github.com/adad184/MMPopupView"
   s.license      = { :type => 'MIT License', :file => 'LICENSE' }

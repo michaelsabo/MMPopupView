@@ -51,6 +51,8 @@ typedef void(^MMPopupInputHandler)(NSString *text);
 @property (nonatomic, strong) UIColor *detailColor;         // Default is #333333.
 @property (nonatomic, strong) UIColor *splitColor;          // Default is #CCCCCC.
 
+@property (nonatomic, strong) UIColor *textFieldColor;
+
 @property (nonatomic, strong) UIColor *itemNormalColor;     // Default is #333333. effect with MMItemTypeNormal
 @property (nonatomic, strong) UIColor *itemHighlightColor;  // Default is #E76153. effect with MMItemTypeHighlight
 @property (nonatomic, strong) UIColor *itemPressedColor;    // Default is #EFEDE7.

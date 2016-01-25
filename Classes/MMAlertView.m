@@ -144,7 +144,8 @@
             self.inputView.leftView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 5, 5)];
             self.inputView.leftViewMode = UITextFieldViewModeAlways;
             self.inputView.clearButtonMode = UITextFieldViewModeWhileEditing;
-            self.inputView.placeholder = inputPlaceholder;
+            self.inputView.textColor = config.textFieldColor;
+            self.inputView.attributedPlaceholder = [[NSAttributedString alloc] initWithString:inputPlaceholder attributes:@{NSForegroundColorAttributeName: config.textFieldColor}];
             
             lastAttribute = self.inputView.mas_bottom;
         }
@@ -355,7 +356,7 @@
         self.titleColor         = MMHexColor(0x333333FF);
         self.detailColor        = MMHexColor(0x333333FF);
         self.splitColor         = MMHexColor(0xCCCCCCFF);
-
+        self.textFieldColor     = MMHexColor(0x00000000);
         self.itemNormalColor    = MMHexColor(0x333333FF);
         self.itemHighlightColor = MMHexColor(0xE76153FF);
         self.itemPressedColor   = MMHexColor(0xEFEDE7FF);
